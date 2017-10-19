@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.esteban.miscontactos.DetalleContacto"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingBottom="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+
+    >
+
+    <!--<include android:id="@+id/miActionBar"
+        layout="@layout/actionbar"
+        ></include>-->
+
+
+    <TextView
+        android:id="@+id/tvnombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Nombre"
+        android:textStyle="bold"
+        android:textSize="35dp"
+
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:onClick="llamar"
+
+        >
+
+        <ImageView
+            android:id="@+id/imgvTelefono"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/icons8_phone_50"
+            android:layout_gravity="center_vertical"
+
+            />
+
+
+        <TextView
+            android:id="@+id/tvtelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Telefono"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="enviarEmail"
+        >
+`
+
+
+    <ImageView
+        android:id="@+id/imgvEmail"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/icons8_email_64"
+        android:layout_gravity="center_vertical"
+
+        />
+
+
+    <TextView
+        android:id="@+id/tvemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Email"
+        android:layout_marginLeft="20dp"
+        />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">misContactos2</string>
+    <string name="Nombre">Esteban Valencia</string>
+    <string name="Telefono">312855363</string>
+    <string name="Email">jesteval2532@gmail.com</string>
+
+    <string name="pnombre">nombre</string>
+    <string name="ptelefono">telefono</string>
+    <string name="pemail">email</string>
+
+</resources>
